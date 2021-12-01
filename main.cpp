@@ -6,8 +6,10 @@ int main(){
     cin>>a;
     bool risultato=primo(a);
     if(risultato){
-        cout<< trasformazione(a);
-    }else{
+        cout<< trasformazione(a)<<endl;
+    }
+    else{
         cout<<"errore"<<endl;
     }
+    return 0;
 }
