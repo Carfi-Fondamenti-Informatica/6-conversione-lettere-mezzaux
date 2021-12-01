@@ -1,12 +1,11 @@
-#include <iostream>
 #include "lib.h"
 using namespace std;
 int main(){
     char a;
     cin>>a;
-    int risultato=primo(a);
-    if(risultato=a){
-        cout<<a;
+    bool risultato=primo(a);
+    if(risultato){
+        cout<< trasformazione(a);
     }else{
         cout<<"errore"<<endl;
     }
