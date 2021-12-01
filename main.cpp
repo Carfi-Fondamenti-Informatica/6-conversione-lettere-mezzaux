@@ -5,8 +5,8 @@ int main(){
     char a;
     cin>>a;
     int risultato=primo(a);
-    if(risultato){
-        cout<< trasformazione(a);
+    if(risultato=a){
+        cout<<a;
     }else{
         cout<<"errore"<<endl;
     }
